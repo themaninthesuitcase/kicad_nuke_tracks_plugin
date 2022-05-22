@@ -20,3 +20,5 @@ class NukeTracksPluginAction(pcbnew.ActionPlugin):
         filler = pcbnew.ZONE_FILLER(board)
         filler.Fill(board.Zones())
 
+        pcbnew.UpdateUserInterface()
+
