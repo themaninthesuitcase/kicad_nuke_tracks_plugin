@@ -1,2 +1,2 @@
-from .delete_tracks_action import DeleteTracksPluginAction
-DeleteTracksPluginAction().register()
+from .nuke_tracks_action import NukeTracksPluginAction
+NukeTracksPluginAction().register()

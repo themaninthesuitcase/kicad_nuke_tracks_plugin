@@ -1,10 +1,14 @@
-# Delete Tracks KiCad Plugin
+# Nuke Tracks KiCad Plugin
 
-To use the handy [auto router plugin](https://github.com/random-builder/kicad_freerouting-plugin) it's really useful to start with a board clear of tracks and the zones filled. I was running the global delete tracks menu command, but thats 4 clicks this is 1.
+Maybe you've made a right mess of things and want to start over? Or you're using [auto router plugin](https://github.com/random-builder/kicad_freerouting-plugin) and want to make sure random junk isn't going to ruin things.
 
-This plugin will nuke all tracks that are not locked on the board<sup>*</sup> then automatically regenerates any zones, so you can run the autoroute on a clean slate.
+You could run the menu command to delete all non-locked tracks then refill the zones. Or you could push this 1 button which is just easier abd faster.
+
+This plugin will nuke all tracks that are not locked on the board<sup>*</sup> then automatically regenerates any zones. 
+
+Have regrets? A single undo will put it back to how it was before the plugin ran.
 
 Icon by Lorc under CC BY 3.0
 https://game-icons.net/1x1/lorc/mushroom-cloud.html
 
-\* By not deleting locked tracks you can choose to keep anything you've manually routed first.
+\* By not deleting locked tracks you can choose to keep anything you're happy with and have locked.

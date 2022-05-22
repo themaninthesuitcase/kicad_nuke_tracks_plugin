@@ -1,11 +1,11 @@
 import pcbnew
 import os
 
-class DeleteTracksPluginAction(pcbnew.ActionPlugin):
+class NukeTracksPluginAction(pcbnew.ActionPlugin):
     def defaults(self):
-        self.name = "Delete tracks"
-        self.category = "Delete"
-        self.description = "Deletes all non locked tracks from the board"
+        self.name = "Nuke Tracks"
+        self.category = "Nuke"
+        self.description = "Deletes all non locked tracks from the board, then refills the zones."
         self.show_toolbar_button = True
         self.icon_file_name = os.path.join(os.path.dirname(__file__), 'icon.png')
 
